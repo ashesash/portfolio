@@ -7,12 +7,12 @@ const Navbar = () => {
         <div className='fixed w-full h-20 shadow-xl z-[100]'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Image
-                    src="/..public/assets/as.svg"
+                    src="/public/assets/as.svg"
                     alt="/"
                     width='125'
                     height='125'
                 />
-                {/* <div>
+                <div>
                     <ul>
                         <Link href='/'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
@@ -22,7 +22,7 @@ const Navbar = () => {
                             <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
                         </Link>
                     </ul>
-                </div> */}
+                </div>
             </div>
         </div>
     )
